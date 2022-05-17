@@ -1,8 +1,8 @@
 public class pp2 {
     public static void main(String[] args) {
-        int a=9;
-        int b=10;
-        int c=a+b;
-        System.out.println(c);//sample testing
+        for(int i=0;i<10;i++)//loop for 1 to 10
+        {
+            System.out.println(i);//print the loop variable
+        }
     }
 }
