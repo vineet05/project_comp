@@ -3,6 +3,6 @@ public class pp2 {
         int a=9;
         int b=10;
         int c=a+b;
-        System.out.println(c);
+        System.out.println(c);//sample testing
     }
 }
