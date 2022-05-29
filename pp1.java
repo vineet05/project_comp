@@ -16,8 +16,9 @@ class pp1
             if(prime(s)==true)
             c++;
         }
-        if (c==l)
-        System.out.println(p+"IS A CIRCULAR NUMBER");
+        System.out.println(c);
+        //if (c==l)
+        //System.out.println(p+"IS A CIRCULAR NUMBER");
         //loop front to back
         //   {//boolean calling}
         //if 
