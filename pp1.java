@@ -10,15 +10,15 @@ class pp1
         int l=s.length();
         for(int i=0;i<l;i++)
         {
-            char r=s.charAt(i);
-            s=s.substring(1,l)+r;
+            char r=s.charAt(0);
+            s=s.substring(2,l)+r;
             System.out.println(s);
             if(prime(s)==true)
             c++;
         }
-        System.out.println(c);
-        //if (c==l)
-        //System.out.println(p+"IS A CIRCULAR NUMBER");
+        
+        if (c==l)
+        System.out.println(p+"IS A CIRCULAR NUMBER");
         //loop front to back
         //   {//boolean calling}
         //if 
